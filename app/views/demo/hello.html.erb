@@ -10,3 +10,13 @@
 <% @array.each do |n| %>
 	<%= n %><br />
 <% end %>
+
+<%= link_to('Index page 2', {:action => 'index'}) %>
+
+<br />
+ID: <%= params[:id] %>
+ID: <%= @id %><br />
+Next Page: <%= @page %><br />
+
+<hr />
+<%= params.inspect %>
